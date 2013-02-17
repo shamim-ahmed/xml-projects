@@ -1,0 +1,155 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+    color: #006699;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+h3 {
+	color: #3D6368;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+
+h4 {
+	color: #07822C;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+div.weekday-weather-info {
+	margin-bottom: 5px;
+	padding-bottom: 7px;
+	border-bottom: dotted 1px #C8C8C8;
+}
+
+div#fullpage {
+	background-color: #C8C8C8;
+}
+
+div#content {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 15px 20px;
+}
+
+div.container {
+	width: 800px;
+	background-color:#FFFFFF;
+}
+
+div.full {
+	width: 100%;
+	clear:both;
+}
+
+div.city-forecast {
+	margin-top: 5px;
+}
+
+div.city-container {
+	width: 300px;
+	margin-top: 5px;
+}
+
+div.city-forecast-image {
+	float: left;
+	width: 20%;
+}
+
+div.city-forecast-temp {
+	width: 80%;
+	float: right;
+}
+
+.min {
+	color:blue;
+	font-size: 1.2em;
+}
+
+.max {
+	color:red;
+	font-size: 1.2em;
+}
+
+span.city-min {
+	margin-right: 5px;
+}
+
+span.info-label {
+	font-weight: bold;
+}
+
+table { 
+	border: 1px solid #A5B7B5;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+table.forecasttable {
+	table-layout: fixed;
+	width: 500px;
+}
+
+tr {
+	background-color: #FFFFFF;
+}
+
+td, th {
+	border: 1px solid #A5B7B5;
+	padding: 8px;
+	text-align: center;
+}
+
+table.forecasttable th.forecast, table.forecasttable td.forecast {
+	width: 225px;
+}
+
+table.forecasttable th.location, table.forecasttable td.location {
+	width: 115px;
+}
+
+td.event-title {
+	width: 11.5%;
+	font-weight:500;
+	font-style: italic;
+}
+
+td.event-url {
+	width: 5%;
+}
+
+td.event-description {
+	width: 60%;
+	text-align: left;
+}
+
+td.name {
+	font-weight:500;
+	font-style: italic;
+}
+
+td.forecast {
+	text-align: left;
+}
+
+td.forecast div.message {
+	padding-bottom: 2px;
+}
+
+img.big {
+	vertical-align: bottom;
+}
+
+img.small {
+	padding-right: 5px;
+	vertical-align: bottom;
+}
